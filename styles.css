@@ -1,3 +1,29 @@
+body {
+    background-image: url("Big Yoshi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 100%;
+    border-collapse:collapse;
+}
+
+td{
+    width: 10%;
+    text-align: left;
+    border: 1px solid black;
+}
+
+td img {
+    filter: grayscale(0%);
+}
+td img:hover {
+    transition: all 0.5ms;
+    filter: grayscale(100%);
+}
+
 #imgPoli {
     filter: grayscale(0%);
     /*-webkit-filter: grayscale(0%);
