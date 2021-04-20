@@ -21,7 +21,7 @@ td img {
 }
 td img:hover {
     transition: all 0.5ms;
-    filter: grayscale(100%);
+    filter: grayscale(100%) opacity(70%);
 }
 
 #imgPoli {
