@@ -1,14 +1,12 @@
-div img {
-    transition: all 0.2s;
-    /*-webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;*/
-}
-div img {
+#imgPoli {
     filter: grayscale(0%);
     /*-webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);*/
 }
-div img:hover {
+#imgPoli:hover {
+    transition: all 0.5s;
+    /*-webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;*/
     filter: grayscale(100%);
     /*-webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);*/
