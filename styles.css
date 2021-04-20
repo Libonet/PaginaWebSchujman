@@ -4,7 +4,7 @@
     -moz-filter: grayscale(0%);*/
 }
 #imgPoli:hover {
-    transition: all 0.2s;
+    transition: all 0.5s;
     /*-webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;*/
     filter: grayscale(100%);
