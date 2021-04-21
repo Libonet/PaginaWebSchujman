@@ -5,6 +5,11 @@ body {
     background-size: cover;
 }
 
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
 table{
     width: 100%;
     border-collapse:collapse;
