@@ -32,12 +32,6 @@ td img:hover {
     filter: grayscale(0%) saturate(125%) brightness(105%) contrast(110%);
 }
 
-#imgPoli {
-    filter: grayscale(0%);
-    /*-webkit-filter: grayscale(0%);
-    -moz-filter: grayscale(0%);*/
-}
-
 #imgPoli:hover {
     transition: all 0.5s;
     /*-webkit-transition: all 0.2s;
